@@ -2,6 +2,10 @@
 
 Identificação de faces em um vídeo a cerimônia da Bola de Ouro
 
+Desenvolvido para a PSUB do módulo 6 de Engenharia de Computação do Inteli
+
+https://rmnicola.github.io/m6-ec-encontros/meu-caro-stone/
+
 # Funcionamento
 
 O código faz a detecção de faces usando HAAR Cascade, e uma validação usando detecção de olhos dentro das ROIs criadas com as faces.
@@ -65,3 +69,28 @@ Nenhuma das soluções consegue, por si só, considerar variações de um frame 
 ### 2.5 (Bônus) Quem ganha a bola de ouro 2024?
 
 Alex do [Time Thundervolt](https://thunderatz.org/projects/robots/thundervolt)
+
+# Rodando!
+
+Para rodar o projeto, primeiro clone o repositório
+
+```bash
+git clone git@github.com:Eduardo-Barreto/cara-da-bola.git
+```
+
+Baixe o [vídeo de exemplo](https://drive.google.com/uc?export=download&id=18is4Ww5klq5FX2NuuLKNO3pItOJas43b)
+
+Instale as dependências
+
+```bash
+cd src/
+pip install -r requirements.txt
+```
+
+Rode o projeto
+
+```bash
+python3 main.py
+```
+
+# Demonstração
