@@ -6,6 +6,10 @@ Desenvolvido para a PSUB do módulo 6 de Engenharia de Computação do Inteli
 
 https://rmnicola.github.io/m6-ec-encontros/meu-caro-stone/
 
+# Demonstração
+
+https://github.com/Eduardo-Barreto/cara-da-bola/assets/34964398/5d3616c4-c630-46be-82b6-4d04f862e62f
+
 # Funcionamento
 
 O código faz a detecção de faces usando HAAR Cascade, e uma validação usando detecção de olhos dentro das ROIs criadas com as faces.
@@ -92,5 +96,3 @@ Rode o projeto
 ```bash
 python3 main.py
 ```
-
-# Demonstração
